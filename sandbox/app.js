@@ -1,6 +1,6 @@
-const express = require('express')
-const app = express()
-const port = 80
+import express from 'express';
+const app = express();
+const port = 80;
 
 app.get('/', (req, res) => {
   console.log('Request:', req.ip);
